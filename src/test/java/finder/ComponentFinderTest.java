@@ -5,8 +5,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.HashMap;
-
 public class ComponentFinderTest {
     private static final String ORIGINAL_HTML_PATH = "./samples/startbootstrap-sb-admin-2-examples/sample-0-origin.html";
     private static final String DIFF_1_HTML_PATH = "./samples/startbootstrap-sb-admin-2-examples/sample-1-evil-gemini.html";

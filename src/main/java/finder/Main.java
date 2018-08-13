@@ -9,7 +9,7 @@ public class Main {
 
     private static Logger LOGGER = LoggerFactory.getLogger(Main.class);
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         String originalHtmlPath = args[0];
         String diffHtmlPath = args[1];
         String elementId = (args.length == 3) ? args[2] : "make-everything-ok-button";
